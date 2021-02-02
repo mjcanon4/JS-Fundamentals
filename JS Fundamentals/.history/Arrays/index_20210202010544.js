@@ -63,6 +63,6 @@ function calcBill(bill) {
 }
 
 calcBill(100);
-console.log(tips, totalAmount);
+console.log(tips, billAmount, totalAmount);
 
 const tip = function calcTip() {};

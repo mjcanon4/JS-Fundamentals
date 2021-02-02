@@ -50,19 +50,15 @@
 
 const billAmount = [125, 555, 44];
 const tips = [];
-const totalAmount = [];
 
 function calcBill(bill) {
   if (bill >= 50 && bill <= 300) {
-    totalAmount.push(bill * 1.15);
-    tips.push(totalAmount[totalAmount.length - 1] - bill);
+    billAmount.push(bill * 1.15);
+    tips.push(billAmount[billAmount.length - 1] - bill);
     return bill * 1.15;
   } else {
     return bill * 1.2;
   }
 }
-
-calcBill(100);
-console.log(tips, totalAmount);
 
 const tip = function calcTip() {};
