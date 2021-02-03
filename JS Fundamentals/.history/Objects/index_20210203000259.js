@@ -34,16 +34,6 @@ const interestedIn = prompt(
 
 console.log(michael[interestedIn]); // THIS WILL NOT WORK WITH DOT NOTATION
 
-if (michael[interestedIn]) {
+if (jonas[interestedIn]) {
   console.log([michael[interestedIn]]);
-} else if (!michael[interestedIn]) {
-  console.log("What you search cannot be found");
 }
-
-michael.location = "USA";
-
-console.log(
-  `${michael.firstName} has ${michael.friends.length} friends and his best friend is ${michael.friends[0]}`
-);
-
-// TOO EASY BRUH

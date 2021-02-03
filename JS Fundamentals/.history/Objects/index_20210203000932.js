@@ -42,8 +42,4 @@ if (michael[interestedIn]) {
 
 michael.location = "USA";
 
-console.log(
-  `${michael.firstName} has ${michael.friends.length} friends and his best friend is ${michael.friends[0]}`
-);
-
-// TOO EASY BRUH
+console.log(`${michael.firstName} has ${michael.friends.length - 1}`);

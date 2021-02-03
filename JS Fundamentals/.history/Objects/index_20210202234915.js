@@ -26,24 +26,3 @@ console.log(michael["lastName"]);
 
 const nameKey = "Name";
 console.log(michael["first" + nameKey]);
-console.log(michael["last" + nameKey]); // Can put any expression here, does not work for dot notation
-
-const interestedIn = prompt(
-  "What do you want to know about Michael, choose between firstName, lastName, age, job and friends"
-);
-
-console.log(michael[interestedIn]); // THIS WILL NOT WORK WITH DOT NOTATION
-
-if (michael[interestedIn]) {
-  console.log([michael[interestedIn]]);
-} else if (!michael[interestedIn]) {
-  console.log("What you search cannot be found");
-}
-
-michael.location = "USA";
-
-console.log(
-  `${michael.firstName} has ${michael.friends.length} friends and his best friend is ${michael.friends[0]}`
-);
-
-// TOO EASY BRUH
