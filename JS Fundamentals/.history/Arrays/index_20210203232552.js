@@ -72,6 +72,7 @@ let i = 0;
 
 while (i < arr.length) {
   console.log(`it will be ${arr[i]} degrees in ${i + 1} days`);
+  if()
   i++;
 }
 

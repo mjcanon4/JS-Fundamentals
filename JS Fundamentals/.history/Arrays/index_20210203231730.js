@@ -68,17 +68,9 @@ console.log(tips, totalAmount);
 const tip = function calcTip() {};
 
 let arr = ["17", "21", "23"];
-let i = 0;
 
-while (i < arr.length) {
-  console.log(`it will be ${arr[i]} degrees in ${i + 1} days`);
-  i++;
+function printForecast(arr) {
+  for (i = 0; i <= arr.length; i++) {
+    console.log(`it will be ${arr[i]} degrees in ${arr[i] + 1} days`);
+  }
 }
-
-// function printForecast(arr) {
-//   for (i = 0; i <= arr.length; i++) {
-//     console.log(`it will be ${arr[i]} degrees in ${arr[i] + 1} days`);
-//   }
-// }
-
-// printForecast();
