@@ -115,9 +115,6 @@ const restaurant = {
   },
 };
 
-const { name, categories, openingHours } = restaurant;
-console.log(name, openingHours, categories);
-
 const arr = [2, 3, 4];
 const a = arr[0];
 const b = arr[1];
@@ -132,10 +129,3 @@ console.log(restaurant.order(2, 0));
 
 const [starter, main] = restaurant.order(2, 0);
 console.log(starter, main);
-
-const nested = [2, 4, [5, 6]];
-// const [i, , j] = nested;
-// console.log(i, j);
-
-const [i, , [j, k]] = nested;
-console.log(i, j, k);

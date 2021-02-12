@@ -116,7 +116,6 @@ const restaurant = {
 };
 
 const { name, categories, openingHours } = restaurant;
-console.log(name, openingHours, categories);
 
 const arr = [2, 3, 4];
 const a = arr[0];
